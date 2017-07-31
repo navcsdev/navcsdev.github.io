@@ -327,6 +327,10 @@
     canvas {
         cursor: crosshair;
         display: block;
+        position:absolute;
+      left:0;
+      top:0;
+      z-index:-1;
     }
     </style>
     <script>
@@ -345,11 +349,11 @@
 </head>
 
 <body>
+    <embed src="https://drive.google.com/file/d/0B8ffha1b2fKzb3BzRXlVMENaRUU/view?usp=sharing" width="180" height="90" loop="false" autostart="false" hidden="true" />
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
     <div class="container">
-        <!-- setup our canvas element -->
-        <canvas id="canvas">Canvas is not supported in your browser.</canvas>
         <div class="balloon">
+            <canvas id="canvas">Canvas is not supported in your browser.</canvas>
             <div><span>☺</span>
             </div>
             <div><span>B</span>
@@ -365,6 +369,14 @@
         </div>
         <h1>Hêu Hêu dễ thương xinh đẹp <3 </h1>
     </div>
+    <div id="backgroundaudio"> 
+      <i class="fa fa-volume-up"></i> 
+      <audio autoplay="" controls="" loop="" preload=""> 
+          <source src="https://drive.google.com/file/d/0B8ffha1b2fKzb3BzRXlVMENaRUU/view?usp=sharing" type="audio/mpeg"></source> 
+          Your browser does not support the audio element. 
+      </audio> 
+  </div>
+
     <div class="demo">
         <script>
         </script>
